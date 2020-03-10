@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Hi"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".f_password2"></activity>
+        <activity android:name=".f_password1" />
+        <activity android:name=".sign_up2" />
+        <activity android:name=".sign_up1" />
+        <activity android:name=".home_connected" />
+        <activity android:name=".home_unconnected" />
+        <activity android:name=".home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

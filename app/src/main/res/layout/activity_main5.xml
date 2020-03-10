@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F9FF"
+    tools:context=".sign_up1">
+
+    <ImageButton
+        android:id="@+id/sign_up2_back_btn"
+        android:layout_width="15dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="315dp"
+        android:background="@null"
+        android:src="@drawable/arrow_right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="257dp"
+        android:text="建立帳號"
+        android:textColor="@color/colorDarkblue"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/sign_up2_enter_btn"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="514dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/sign_up_btn"
+        android:src="@drawable/arrow_left"
+        android:text="確認建立帳號"
+        android:textColor="@color/colorbgWhite"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="306dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="27dp"
+        android:background="@drawable/input_text"
+        android:hint="請輸入驗證碼"
+        android:inputType="text"
+        android:paddingLeft="16dp"
+        android:singleLine="true"
+        android:textColorHint="@color/colorDarkblue"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/veri_send_btn"
+        android:layout_width="111dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="124dp"
+        android:layout_marginTop="37dp"
+        android:text="點此寄送驗證碼"
+        android:textSize="10sp"
+        android:textColor="@color/colorbgWhite"
+        android:background="@drawable/veri_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+    <TextView
+        android:id="@+id/veri_warn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="133dp"
+        android:layout_marginLeft="134dp"
+        android:textColor="@color/colorDarkblue"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
