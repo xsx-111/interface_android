@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.TextView;
 
 public class sign_up1 extends AppCompatActivity {
 
@@ -15,7 +14,7 @@ public class sign_up1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main4);
+        setContentView(R.layout.activity_sign_up1);
 
         imageButton1 = findViewById(R.id.button_next);
         imageButton2 = findViewById(R.id.sign_up1_back_btn);

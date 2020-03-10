@@ -20,7 +20,7 @@ public class sign_up2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main5);
+        setContentView(R.layout.activity_sign_up2);
 
         button1 = findViewById(R.id.veri_send_btn);
         button2 = findViewById(R.id.sign_up2_enter_btn);

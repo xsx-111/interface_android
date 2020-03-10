@@ -18,7 +18,7 @@ public class f_password1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main6);
+        setContentView(R.layout.activity_f_password1);
 
         textView = findViewById(R.id.veri_warn);
         button = findViewById(R.id.veri_send_btn);

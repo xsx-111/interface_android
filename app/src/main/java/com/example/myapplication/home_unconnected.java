@@ -15,7 +15,7 @@ public class home_unconnected extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_home_connected);
 
         button1 = findViewById(R.id.logout_button);
 
