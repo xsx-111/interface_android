@@ -17,7 +17,7 @@ public class f_password2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main7);
+        setContentView(R.layout.activity_f_password2);
 
         button = findViewById(R.id.f_password2_enter_btn);
         imageButton = findViewById(R.id.f_password2_back_btn);
