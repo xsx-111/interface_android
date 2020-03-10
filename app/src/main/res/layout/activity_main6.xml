@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".f_password1">
+
+    <ImageButton
+        android:id="@+id/f_password1_back_btn"
+        android:layout_width="15dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="315dp"
+        android:background="@null"
+        android:src="@drawable/arrow_right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="257dp"
+        android:text="忘記密碼"
+        android:textColor="@color/colorDarkblue"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="303dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/input_text"
+        android:hint="聯絡電話"
+        android:inputType="number"
+        android:paddingLeft="16dp"
+        android:singleLine="true"
+        android:textColorHint="@color/colorDarkblue"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="303dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/input_text"
+        android:hint="聯絡郵件"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="16dp"
+        android:singleLine="true"
+        android:textColorHint="@color/colorDarkblue"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText6" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="303dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/input_text"
+        android:hint="請輸入驗證碼"
+        android:inputType="text"
+        android:paddingLeft="16dp"
+        android:singleLine="true"
+        android:textColorHint="@color/colorDarkblue"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText7" />
+
+    <Button
+        android:id="@+id/veri_send_btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="111dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginRight="124dp"
+        android:background="@drawable/veri_btn"
+        android:text="點此寄送驗證碼"
+        android:textColor="@color/colorbgWhite"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <TextView
+        android:id="@+id/veri_warn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginRight="135dp"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/colorDarkblue"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <ImageButton
+        android:id="@+id/button_next"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="514dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/sign_up_btn"
+        android:src="@drawable/arrow_left"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
